@@ -12,6 +12,11 @@ gem 'turbolinks', '~> 5'
 gem 'jbuilder', '~> 2.7'
 gem 'bootsnap', '>= 1.4.2', require: false
 
+gem "haml-rails", "~> 2.0"
+gem 'sprockets-rails', '~> 3.2', '>= 3.2.2'
+gem 'bootstrap', '~> 4.4.1'
+gem 'jquery-rails'
+
 group :development, :test do
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
 end 
@@ -30,7 +35,3 @@ group :test do
 end
 
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
-
-gem "haml-rails", "~> 2.0"
-gem 'bootstrap', '~> 4.4.1'
-gem 'jquery-rails'
