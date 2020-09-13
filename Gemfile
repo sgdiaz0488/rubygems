@@ -13,6 +13,9 @@ gem 'jbuilder', '~> 2.7'
 gem 'bootsnap', '>= 1.4.2', require: false
 
 gem "haml-rails", "~> 2.0"
+gem 'jquery-rails'
+gem 'bootstrap-sass', '~> 3.3.6'
+gem 'autoprefixer-rails'
 gem 'sprockets-rails', '~> 3.2', '>= 3.2.2'
 gem 'bootstrap', '~> 4.4.1'
 gem 'jquery-rails'
