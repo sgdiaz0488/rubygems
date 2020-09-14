@@ -17,6 +17,7 @@ gem 'jquery-rails'
 gem 'bootstrap', '~> 4.4.1'
 gem 'font-awesome-sass', '~> 5.13'
 gem 'simple_form', '~> 5.0', '>= 5.0.2'
+gem 'devise', '~> 4.7', '>= 4.7.2'
 
 group :development, :test do
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
@@ -27,6 +28,7 @@ group :development do
   gem 'listen', '~> 3.2'
   gem 'spring'
   gem 'spring-watcher-listen', '~> 2.0.0'
+  gem 'faker', '~> 2.13'
 end
 
 group :test do
