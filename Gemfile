@@ -16,6 +16,7 @@ gem "haml-rails", "~> 2.0"
 gem 'jquery-rails'
 gem 'bootstrap', '~> 4.4.1'
 gem 'jquery-rails'
+gem 'font-awesome-sass', '~> 5.13'
 
 group :development, :test do
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
