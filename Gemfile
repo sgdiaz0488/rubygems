@@ -15,8 +15,8 @@ gem 'bootsnap', '>= 1.4.2', require: false
 gem "haml-rails", "~> 2.0"
 gem 'jquery-rails'
 gem 'bootstrap', '~> 4.4.1'
-gem 'jquery-rails'
 gem 'font-awesome-sass', '~> 5.13'
+gem 'simple_form', '~> 5.0', '>= 5.0.2'
 
 group :development, :test do
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
