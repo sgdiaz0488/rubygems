@@ -18,6 +18,7 @@ gem 'bootstrap', '~> 4.4.1'
 gem 'font-awesome-sass', '~> 5.13'
 gem 'simple_form', '~> 5.0', '>= 5.0.2'
 gem 'devise', '~> 4.7', '>= 4.7.2'
+gem 'friendly_id', '~> 5.4'
 
 group :development, :test do
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
