@@ -19,6 +19,7 @@ class Course < ApplicationRecord
  end  
  
  LEVELS = [:"All levels", :"Beginner", :"Intermediate", :"Advanced"]
+ 
  def self.levels
    LEVELS.map { |level| [level, level] }
  end
