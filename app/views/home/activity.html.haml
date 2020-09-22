@@ -1,0 +1,16 @@
+%h2
+ .text-center
+  Activity
+  .badge.badge-info
+   = @activities.count
+  
+%ul.list-group.shadow 
+ -@activities.each do |activity| 
+  %li.list-group-item
+   = activity.id
+   = activity.created_at.strftime('%d/%m/%Y, %H:%M')
+   = activity.trackable_type
+   = activity.trackable_id
+   = link_to activity.trackable, activity.trackable
+   = activity.parameters
+   = activity.owner

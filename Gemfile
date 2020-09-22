@@ -22,6 +22,8 @@ gem 'friendly_id', '~> 5.4'
 gem 'autoprefixer-rails', '~> 10.0', '>= 10.0.0.2'
 gem 'mini_racer', '~> 0.3.1'
 gem 'ransack'
+gem 'public_activity', '~> 1.6', '>= 1.6.4'
+gem 'rolify', '~> 5.3'
 
 group :development, :test do
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
